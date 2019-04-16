@@ -34,8 +34,8 @@ function createTODO(todo, index) {
     check.onclick = function() {
         store.todos = store.todos.filter(() => true);
        // alert('Клик!');
-        var carry = confirm("Хотите перенести в список Заверешнных дел?");
-        alert( carry );
+        var copy = confirm("Хотите перенести в список Заверешнных дел?");
+        alert( copy );
     };
 
     var div = document.createElement('div');
